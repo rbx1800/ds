@@ -1,0 +1,3 @@
+# Ignore C compiler binary files
+/**/*.out
+list.txt
