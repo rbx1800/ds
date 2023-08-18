@@ -2,15 +2,11 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <stdbool.h>
+#include "linked_list.h"
 
 struct Node {
     int32_t item;
     struct Node *next, *prev;
-};
-
-struct LinkedList {
-    struct Node *head, *tail; 
-    size_t size;
 };
 
 static struct Node* 
