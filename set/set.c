@@ -130,7 +130,6 @@ set_free(struct Set* set) {
     free(set->array);
 }
 
-
 void 
 set_difference(struct Set* s1, struct Set* s2, struct Set* s3) {
     for (int i = 0; i < s1->size; i++) {
